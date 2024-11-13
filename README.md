@@ -72,10 +72,22 @@ endmodule
 
 **Output Timing Waveform**
 ![EXP4 Waveform](https://github.com/user-attachments/assets/239db52b-0d5e-4237-a83b-0da919ec0c7a)
+**RTL Schematic**
+
+![EXP4 RTL](https://github.com/user-attachments/assets/d68c1a19-0032-42b8-897e-ccc258a01c3f)
+
+![EXP4 RTL2](https://github.com/user-attachments/assets/9f3a5598-b619-42e4-a49c-aeb9fbab1209)
+
+
+**Output Timing Waveform**
+
+![EXP4 Waveform](https://github.com/user-attachments/assets/239db52b-0d5e-4237-a83b-0da919ec0c7a)
+
+![Screenshot (9)](https://github.com/user-attachments/assets/fc373807-492e-42f1-b41c-827510e24c78)
+
 
 **Result:**
 
 Thus the Full Adder and Full Subtractor circuits are designed and the truth tables is verified using Quartus software.
-
 
 
