@@ -63,6 +63,19 @@ assign w3=(~w1&bin);
 assign df=w1^bin;
 assign bo=w2|w3;
 endmodule
+module exp4(sum,cout,a,b,cin);
+output sum;
+input cout;
+input a;
+output b;
+input cin;
+wire s1,c1,c2;
+xor(s1,a,b);
+and(c1,a,b);
+xor(sum,s1,cin);
+and(c2,s1,cin);
+or(cout,c2,c1);
+endmodule
 ```
 **RTL Schematic**
 ![EXP4 RTL](https://github.com/user-attachments/assets/d68c1a19-0032-42b8-897e-ccc258a01c3f)
@@ -70,13 +83,6 @@ endmodule
 ![EXP4 RTL2](https://github.com/user-attachments/assets/9f3a5598-b619-42e4-a49c-aeb9fbab1209)
 
 
-**Output Timing Waveform**
-![EXP4 Waveform](https://github.com/user-attachments/assets/239db52b-0d5e-4237-a83b-0da919ec0c7a)
-**RTL Schematic**
-
-![EXP4 RTL](https://github.com/user-attachments/assets/d68c1a19-0032-42b8-897e-ccc258a01c3f)
-
-![EXP4 RTL2](https://github.com/user-attachments/assets/9f3a5598-b619-42e4-a49c-aeb9fbab1209)
 
 
 **Output Timing Waveform**
